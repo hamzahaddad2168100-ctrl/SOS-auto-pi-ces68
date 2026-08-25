@@ -155,3 +155,4 @@ function traduireErreur(msg) {
   if (m.includes("password should be at least")) return "Le mot de passe doit faire au moins 6 caractères.";
   if (m.includes("email not confirmed")) return "Confirme d'abord ton email (lien reçu par mail) avant de te connecter.";
   return msg;
+}
