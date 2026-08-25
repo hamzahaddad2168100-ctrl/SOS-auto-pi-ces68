@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body { margin: 0; background: #17181A; -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; }
+select { -webkit-appearance: none; appearance: none; }
+::placeholder { color: #6B6E74; }
+input:focus, select:focus { outline: none; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
